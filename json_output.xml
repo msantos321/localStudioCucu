@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="Bad usage" tests="1" failures="0" errors="0" skipped="0" time="2233902">
+        <properties>
+            <property name="URI" value="F:/studio-cucumber/studio/hps-cucumber-javascript/features/Bad_usage.feature">
+            </property>
+        </properties>
+        <testcase name="Full grounds does not block coffee" time="2233902">
+        </testcase>
+    </testsuite>
+    <testsuite name="Can be configured" tests="2" failures="0" errors="0" skipped="0" time="1022999">
+        <properties>
+            <property name="URI" value="F:/studio-cucumber/studio/hps-cucumber-javascript/features/Can_be_configured.feature">
+            </property>
+        </properties>
+        <testcase name="Display settings" time="287901">
+        </testcase>
+        <testcase name="Default settings" time="735098">
+        </testcase>
+    </testsuite>
+    <testsuite name="Beans" tests="3" failures="0" errors="0" skipped="0" time="3105196">
+        <properties>
+            <property name="URI" value="F:/studio-cucumber/studio/hps-cucumber-javascript/features/Display_errors/Beans.feature">
+            </property>
+        </properties>
+        <testcase name="After adding beans, the message &quot;Fill beans&quot; disappears" time="1719901">
+        </testcase>
+        <testcase name="It is possible to take 40 coffees before there is really no more beans" time="769898">
+        </testcase>
+        <testcase name="Message &quot;Fill beans&quot; is displayed after 38 coffees are taken" time="615397">
+        </testcase>
+    </testsuite>
+    <testsuite name="Grounds" tests="2" failures="0" errors="0" skipped="0" time="1271902">
+        <properties>
+            <property name="URI" value="F:/studio-cucumber/studio/hps-cucumber-javascript/features/Display_errors/Grounds.feature">
+            </property>
+        </properties>
+        <testcase name="When the grounds are emptied, message is removed" time="754503">
+        </testcase>
+        <testcase name="Message &quot;Empty grounds&quot; is displayed after 30 coffees are taken" time="517399">
+        </testcase>
+    </testsuite>
+    <testsuite name="Water" tests="3" failures="0" errors="0" skipped="0" time="2681498">
+        <properties>
+            <property name="URI" value="F:/studio-cucumber/studio/hps-cucumber-javascript/features/Display_errors/Water.feature">
+            </property>
+        </properties>
+        <testcase name="When the water tank is filled, the message disappears" time="1082198">
+        </testcase>
+        <testcase name="It is possible to take 10 coffees after the message &quot;Fill water tank&quot; is displayed" time="868402">
+        </testcase>
+        <testcase name="Message &quot;Fill water tank&quot; is displayed after 50 coffees are taken" time="730898">
+        </testcase>
+    </testsuite>
+    <testsuite name="Serve coffee" tests="1" failures="0" errors="0" skipped="0" time="125100">
+        <properties>
+            <property name="URI" value="F:/studio-cucumber/studio/hps-cucumber-javascript/features/Serve_coffee.feature">
+            </property>
+        </properties>
+        <testcase name="Simple use" time="125100">
+        </testcase>
+    </testsuite>
+    <testsuite name="Support internationalisation" tests="3" failures="0" errors="0" skipped="0" time="365999">
+        <properties>
+            <property name="URI" value="F:/studio-cucumber/studio/hps-cucumber-javascript/features/Support_internationalisation.feature">
+            </property>
+        </properties>
+        <testcase name="Messages are based on language" time="121698">
+        </testcase>
+        <testcase name="Messages are based on language" time="91901">
+        </testcase>
+        <testcase name="No messages are displayed when machine is shut down" time="152400">
+        </testcase>
+    </testsuite>
+</testsuites>
