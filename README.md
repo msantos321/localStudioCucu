@@ -27,7 +27,7 @@ Update tests
 
 To update the tests:
 
-    hiptest-publisher -c cucumber-js.conf --only=features,step_definitions
+    hiptest-publisher -c cucumber-js.conf --only=features,step_definitions --without=actionwords
 
 The tests are generated in the [``features``](https://github.com/hiptest/hps-cucumber-javascript/tree/master/features) directory.
 
@@ -37,8 +37,8 @@ Run tests
 
 To build the project and run the tests, use the following command:
 
-    npm install
-    node_modules/.bin/cucumber-js --format=json | node_modules/cucumber-junit/bin/cucumber-junit --features-as-suites > junit_output.xml
+    	npm install
+	node_modules\.bin\cucumber-js --format=json | node node_modules\cucumber-junit\bin\cucumber-junit --features-as-suites > json_output.xml
 
 The SUT implementation can be seen in [``src/coffee_machine.js!``](https://github.com/hiptest/hps-cucumber-javascript/blob/master/src/coffee_machine.js)
 
