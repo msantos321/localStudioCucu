@@ -1,75 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="Bad usage" tests="1" failures="0" errors="0" skipped="0" time="2233902">
+    <testsuite name="Bad usage" tests="1" failures="0" errors="0" skipped="0" time="2220300">
         <properties>
             <property name="URI" value="F:/studio-cucumber/studio/hps-cucumber-javascript/features/Bad_usage.feature">
             </property>
         </properties>
-        <testcase name="Full grounds does not block coffee" time="2233902">
+        <testcase name="Full grounds does not block coffee (uid:dd3ae71c-96c5-4c84-a526-dcc175b8e8cb)" time="2220300">
         </testcase>
     </testsuite>
-    <testsuite name="Can be configured" tests="2" failures="0" errors="0" skipped="0" time="1022999">
+    <testsuite name="Can be configured" tests="2" failures="0" errors="0" skipped="0" time="1067900">
         <properties>
             <property name="URI" value="F:/studio-cucumber/studio/hps-cucumber-javascript/features/Can_be_configured.feature">
             </property>
         </properties>
-        <testcase name="Display settings" time="287901">
+        <testcase name="Display settings (uid:fc19702c-a366-4c9f-9d0c-aecb5070b1e1)" time="287399">
         </testcase>
-        <testcase name="Default settings" time="735098">
+        <testcase name="Default settings (uid:7071f912-157b-494c-af1c-2750b1ab0f16)" time="780501">
         </testcase>
     </testsuite>
-    <testsuite name="Beans" tests="3" failures="0" errors="0" skipped="0" time="3105196">
+    <testsuite name="Beans" tests="3" failures="0" errors="0" skipped="0" time="2176202">
         <properties>
             <property name="URI" value="F:/studio-cucumber/studio/hps-cucumber-javascript/features/Display_errors/Beans.feature">
             </property>
         </properties>
-        <testcase name="After adding beans, the message &quot;Fill beans&quot; disappears" time="1719901">
+        <testcase name="After adding beans, the message &quot;Fill beans&quot; disappears (uid:ac5756fc-bbe4-4264-a728-f4a1330bae11)" time="789102">
         </testcase>
-        <testcase name="It is possible to take 40 coffees before there is really no more beans" time="769898">
+        <testcase name="It is possible to take 40 coffees before there is really no more beans (uid:876a3914-3bfd-442b-8c80-a56dabe46e34)" time="763898">
         </testcase>
-        <testcase name="Message &quot;Fill beans&quot; is displayed after 38 coffees are taken" time="615397">
+        <testcase name="Message &quot;Fill beans&quot; is displayed after 38 coffees are taken (uid:74050f1c-c09c-4b7d-b2f0-afb08867fd7c)" time="623202">
         </testcase>
     </testsuite>
-    <testsuite name="Grounds" tests="2" failures="0" errors="0" skipped="0" time="1271902">
+    <testsuite name="Grounds" tests="2" failures="0" errors="0" skipped="0" time="1271398">
         <properties>
             <property name="URI" value="F:/studio-cucumber/studio/hps-cucumber-javascript/features/Display_errors/Grounds.feature">
             </property>
         </properties>
-        <testcase name="When the grounds are emptied, message is removed" time="754503">
+        <testcase name="When the grounds are emptied, message is removed (uid:d4fa5b46-08cf-445a-a457-2e44ddeb8356)" time="758998">
         </testcase>
-        <testcase name="Message &quot;Empty grounds&quot; is displayed after 30 coffees are taken" time="517399">
+        <testcase name="Message &quot;Empty grounds&quot; is displayed after 30 coffees are taken (uid:5290c432-6b24-43a6-846b-f1b9d46fc7d0)" time="512400">
         </testcase>
     </testsuite>
-    <testsuite name="Water" tests="3" failures="0" errors="0" skipped="0" time="2681498">
+    <testsuite name="Water" tests="3" failures="0" errors="0" skipped="0" time="2796794">
         <properties>
             <property name="URI" value="F:/studio-cucumber/studio/hps-cucumber-javascript/features/Display_errors/Water.feature">
             </property>
         </properties>
-        <testcase name="When the water tank is filled, the message disappears" time="1082198">
+        <testcase name="When the water tank is filled, the message disappears (uid:6c9910b6-d326-4330-8032-c092bb4450dd)" time="1257497">
         </testcase>
-        <testcase name="It is possible to take 10 coffees after the message &quot;Fill water tank&quot; is displayed" time="868402">
+        <testcase name="It is possible to take 10 coffees after the message &quot;Fill water tank&quot; is displayed (uid:68ea0f6d-c74b-4380-ad70-694d5dbe9bf4)" time="829798">
         </testcase>
-        <testcase name="Message &quot;Fill water tank&quot; is displayed after 50 coffees are taken" time="730898">
+        <testcase name="Message &quot;Fill water tank&quot; is displayed after 50 coffees are taken (uid:bc755888-5c16-4f68-98e1-135acb8b3d2d)" time="709499">
         </testcase>
     </testsuite>
-    <testsuite name="Serve coffee" tests="1" failures="0" errors="0" skipped="0" time="125100">
+    <testsuite name="Serve coffee" tests="1" failures="0" errors="0" skipped="0" time="131400">
         <properties>
             <property name="URI" value="F:/studio-cucumber/studio/hps-cucumber-javascript/features/Serve_coffee.feature">
             </property>
         </properties>
-        <testcase name="Simple use" time="125100">
+        <testcase name="Simple use (uid:f7a8282d-79d8-419d-8967-3a23fffe0376)" time="131400">
         </testcase>
     </testsuite>
-    <testsuite name="Support internationalisation" tests="3" failures="0" errors="0" skipped="0" time="365999">
+    <testsuite name="Support internationalisation" tests="3" failures="0" errors="0" skipped="0" time="375599">
         <properties>
             <property name="URI" value="F:/studio-cucumber/studio/hps-cucumber-javascript/features/Support_internationalisation.feature">
             </property>
         </properties>
-        <testcase name="Messages are based on language" time="121698">
+        <testcase name="Messages are based on language (uid:2a1b33b3-82aa-4cdf-be93-200d0bb8a994)" time="125000">
         </testcase>
-        <testcase name="Messages are based on language" time="91901">
+        <testcase name="Messages are based on language (uid:41785022-9867-441d-af7c-7702bd6999a9)" time="95099">
         </testcase>
-        <testcase name="No messages are displayed when machine is shut down" time="152400">
+        <testcase name="No messages are displayed when machine is shut down (uid:22927032-7c21-4891-a775-6d75e521f09d)" time="155500">
         </testcase>
     </testsuite>
 </testsuites>

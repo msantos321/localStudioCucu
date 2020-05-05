@@ -5,7 +5,7 @@ Feature: Serve coffee
     "**I can** get coffee from the machine"
 
   @priority-high
-  Scenario: Simple use
+  Scenario: Simple use (uid:f7a8282d-79d8-419d-8967-3a23fffe0376)
     Well, sometimes, you just get a coffee.
     Given the coffee machine is started
     When I take a coffee
