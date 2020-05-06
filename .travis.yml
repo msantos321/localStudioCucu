@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/hiptest/hps-cucumber-javascript.svg?branch=master)](https://travis-ci.org/hiptest/hps-cucumber-javascript)
-
 language: node_js
 node_js:
   - "8"
