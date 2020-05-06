@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/hiptest/hps-cucumber-javascript.svg?branch=master)](https://travis-ci.org/hiptest/hps-cucumber-javascript)
+
 language: node_js
 node_js:
   - "8"
@@ -12,7 +14,7 @@ before_install:
   - npm install
 
 script:
-  - node_modules\.bin\cucumber-js --format=json | node node_modules\cucumber-junit\bin\cucumber-junit --features-as-suites > json_output.xml
+  - node_modules/.bin/cucumber-js --format=json | node_modules/cucumber-junit/bin/cucumber-junit --features-as-suites > json_output.xml
 
 after_script:
   - hiptest-publisher -c cucumber-js.conf --push=json_output.xml --test-run-id=402022
