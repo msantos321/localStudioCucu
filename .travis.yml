@@ -5,14 +5,14 @@ node_js:
 sudo: false
 
 before_install:
-  - rvm install 2.3
-  - rvm use 2.3
+  - rvm install 2.6
+  - rvm use 2.6
   - gem install hiptest-publisher
-  - "hiptest-publisher -c cucumber-js.conf --only=features,step_definitions --test-run-id=402022"
+  - hiptest-publisher -c cucumber-js.conf --token=$SECRET_TOKEN --only=features,step_definitions --test-run-id=$TEST_RUN_ID
   - npm install
 
 script:
-  - node_modules\.bin\cucumber-js --format=json | node node_modules\cucumber-junit\bin\cucumber-junit --features-as-suites > json_output.xml
+  - node_modules/.bin/cucumber-js --format=json | node_modules/cucumber-junit/bin/cucumber-junit --features-as-suites > junit_output.xml
 
 after_script:
-  - hiptest-publisher -c cucumber-js.conf --push=json_output.xml --test-run-id=402022
+  - hiptest-publisher -c cucumber-js.conf --token=$SECRET_TOKEN --push=junit_output.xml --test-run-id=$TEST_RUN_ID --push-format junit
